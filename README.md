@@ -26,19 +26,7 @@ incertidumbre del 90% calculada con **Split Conformal Prediction**. Lee los
 artefactos ya entrenados en `Modulo2/app_artifacts/`, por lo que **no reentrena**
 ni necesita los CSV crudos.
 
-### Ejecutar en local
 
-```bash
-pip install -r requirements.txt
-streamlit run Modulo2/app_streamlit.py
-```
-
-### Despliegue en Streamlit Community Cloud
-
-1. Subir este repositorio a GitHub.
-2. En https://share.streamlit.io → **New app**.
-3. Repositorio: este repo · Rama: `master` · Main file path: `Modulo2/app_streamlit.py`.
-4. Deploy. Streamlit instala `requirements.txt` (raíz) automáticamente.
 
 > Los CSV crudos del dataset M5 (`Modulo2/Modulo_dos_segundo_punto/`) no se
 > versionan por superar el límite de 100 MB de GitHub y no ser necesarios para

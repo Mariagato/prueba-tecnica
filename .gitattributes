@@ -1,0 +1,2 @@
+Modulo2/Modulo_dos_segundo_punto/*.csv filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text

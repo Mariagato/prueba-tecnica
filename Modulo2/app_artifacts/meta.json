@@ -1,0 +1,11 @@
+{
+  "alpha":0.1,
+  "cobertura_objetivo":0.9,
+  "cobertura_estandar":0.9049404762,
+  "cobertura_normalizado":0.9092738095,
+  "q_abs":2.2612200113,
+  "q_norm":1.5197903687,
+  "n_series":3000,
+  "fecha_min_test":"2016-03-28",
+  "fecha_max_test":"2016-04-24"
+}

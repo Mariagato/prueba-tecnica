@@ -1,0 +1,24 @@
+# Solo versionamos las carpetas Modulo1/ y Modulo2/.
+# Todo lo demas de la raiz queda fuera del repositorio.
+
+# Archivos del sistema
+.DS_Store
+**/.DS_Store
+
+# Material y scripts que no forman parte del entregable
+/archivos-sustentacion/
+/_generar_pdfs.py
+/Modulo1_Presentacion.pptx
+
+# Checkpoints de Jupyter
+**/.ipynb_checkpoints/
+
+# Entornos y caches de Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datos crudos del Modulo 2 (M5): demasiado grandes para GitHub (>100 MB).
+# La app Streamlit NO los necesita, usa Modulo2/app_artifacts/.
+Modulo2/Modulo_dos_segundo_punto/
